@@ -20,9 +20,8 @@
     align-items: center;
     justify-content: center;
     position: fixed;
-    z-index: 1;
+    z-index: 99;
     left: 1px;
-
     
     
 }
@@ -33,14 +32,18 @@
     transform: translateY(-160%) ;
     width: 100vw;
     height: 20vh;
+    max-width: 330px;
     h1{
         font-family: "robotoSlab";
+        font-weight: bold;
         justify-items: center;
         text-align: center;
         text-transform: uppercase;
         font-size: 42px;
         color: $primary-color;
         height: 7rem;
+        
+        
 
 
 
@@ -62,9 +65,11 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        left: 280px;
-        transform: translateX(-400%);
         border-radius: 50%;
+        left:0;
+        right:0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
@@ -74,6 +79,7 @@
 }
 @media screen and (min-width: 768px){
    .header-section {
+    max-width: 500px;
     h1 {
         font-size: 80px;
         
@@ -84,8 +90,11 @@
     }
     .nav-button {
         left: 500px;
-        transform: translateX(-370%);
         margin-top: 30px;
+        left:0;
+        right:0;
+        margin-left: auto;
+        margin-right: auto;
     
     }
    }
@@ -105,7 +114,10 @@
        
     }
     .nav-button {
-        left:420px
+        left:0;
+        right:0;
+        margin-left: auto;
+        margin-right: auto;
     }
     }
 
