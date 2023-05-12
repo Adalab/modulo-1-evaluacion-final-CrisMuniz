@@ -1,1 +1,57 @@
+.header {
+    width: 100vw;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.img-big {
+  background-image: url(../images/cover.jpg); 
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(-160%) ;
+    width: 100vw;
+    height: 20vh;
+    h1{
+        font-family: "robotoSlab";
+        justify-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 42px;
+        color: $primary-color;
+        height: 7rem;
 
+
+
+    }
+    p {
+        font-family: "roboto-regular";
+        font-size: 1rem;
+        color: $primary-color;
+        text-align: center;
+        height: 1.3rem;
+        
+    }
+    .nav-button {
+        background-color: white;
+        width: 10%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(450%);
+        border-radius: 50%;
+    }
+
+}
+.central-column {
+   margin-left: 15px;
+   margin-right: 15px; 
+}
