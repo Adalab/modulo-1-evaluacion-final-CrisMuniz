@@ -1,11 +1,10 @@
 .main-section1 {
     width: 100vw;
     height:41vh ;
-    margin-top:30px;
+
     background-color:$primary-color;
     display: flex;
     flex-direction: column;
-    border: black solid;
     &__title {
         width: 20%;
         height: 20%;
@@ -115,7 +114,6 @@
     justify-content: center;
     text-align: center;
     background-color: $primary-background-color;
-    border: black solid;
     &__title {
         margin-top:-45px;
         width: 100%;
