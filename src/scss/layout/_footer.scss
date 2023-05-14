@@ -1,1 +1,60 @@
+.footer{
+    background-color: $secondary-background-color;
+    width: 100vw;
+    height: 40vh;
+}
+.nav-footer {
+    background-color:$primary-color;
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translateY(-120%);
+    border-radius: 50%;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    font-family: $font-family-text;
+    
+    
+}
+.list2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    font-family: $font-family-text;
+    
+}
+.list-element {
+    color: white;
+    list-style: none;
+    font-size: 1rem;
+    text-decoration: none;
+    line-height: 30px;
+    
+}
+.copy {
+    color: $primary-background-color;
+    font-family: $font-family-text;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    line-height: 40px;
 
+}
+.heart {
+    font-size: 100%;
+    color: $secondary-color;
+}
