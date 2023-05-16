@@ -47,6 +47,9 @@
     border: $secondary-color solid;
     font-weight: bold;
   }
+  &__nav:hover {
+    background-color:rgb(144, 228, 228);
+  }
 }
 .central-column2 {
   margin-left: 15px;
@@ -184,6 +187,9 @@
     justify-content: center;
     border-radius: 30px;
     background-color: $secondary-color;
+  }
+  &__nav1:hover {
+    background-color: rgb(144, 228, 228);
   }
 }
 .central-column3 {
